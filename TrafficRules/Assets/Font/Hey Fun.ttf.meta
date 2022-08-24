@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: feb2281331abccf4583c238715e5e3e4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hey Fun
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b63bae6f1cbaa524c8b87e213683cdac, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
