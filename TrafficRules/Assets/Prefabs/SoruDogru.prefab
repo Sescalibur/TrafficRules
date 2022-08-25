@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1257044494768406890}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SoruCanvas, Assembly-CSharp
         m_MethodName: cevapD
         m_Mode: 1
@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1257044494768406890}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SoruCanvas, Assembly-CSharp
         m_MethodName: cevapB
         m_Mode: 1
@@ -1540,7 +1540,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1257044494768406890}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SoruCanvas, Assembly-CSharp
         m_MethodName: cevapC
         m_Mode: 1
@@ -1832,7 +1832,7 @@ GameObject:
   - component: {fileID: 3236651984632973523}
   - component: {fileID: 3236651984632973520}
   - component: {fileID: 3236651984632973521}
-  - component: {fileID: 1257044494768406890}
+  - component: {fileID: 1831300916502126255}
   m_Layer: 5
   m_Name: SoruDogru
   m_TagString: Untagged
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1257044494768406890
+--- !u!114 &1831300916502126255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1930,14 +1930,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3236651984632973518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8abe0cf7d799064eb30c39639db7ef8, type: 3}
+  m_Script: {fileID: 11500000, guid: 468839143ae1ce74795e7a1dab630e9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 4439157912627385772, guid: c97b2acad4827634dacdd42570a4f363, type: 3}
   canvas2: {fileID: 0}
   winCanvas: {fileID: 6363511793561025850, guid: c9038a5f9b510984f8b8748fcfb78f61, type: 3}
   loseCanvas: {fileID: 3516072628156701891, guid: ecbf9b841e98a1149b5834a8fd8fcdfd, type: 3}
-  panel: {fileID: 3236651983521128118}
+  panel: {fileID: 0}
   Canlar: {fileID: 5800860180507699926, guid: 704b5c7a17902604cb9c478ba359b4f1, type: 3}
   CanYuva:
   - {fileID: 1257044495250667671}
@@ -2339,7 +2339,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1257044494768406890}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SoruCanvas, Assembly-CSharp
         m_MethodName: cevapA
         m_Mode: 1
@@ -2622,8 +2622,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1257044494768406890}
-        m_TargetAssemblyTypeName: SoruCanvas, Assembly-CSharp
+      - m_Target: {fileID: 1831300916502126255}
+        m_TargetAssemblyTypeName: DogruYanlis, Assembly-CSharp
         m_MethodName: nextQuestionWin
         m_Mode: 1
         m_Arguments:

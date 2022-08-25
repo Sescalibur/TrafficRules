@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class SecmeControl : MonoBehaviour
@@ -8,6 +9,14 @@ public class SecmeControl : MonoBehaviour
     public static DersTur dersTur;
     public GameObject Canlar;
     public GameObject[] CanYuva;
+    [SerializeField] TextMeshProUGUI trafic;
+    [SerializeField] TextMeshProUGUI motor;
+    [SerializeField] TextMeshProUGUI ilk;
+    [SerializeField] TextMeshProUGUI adab;
+    public static int tra;
+    public static int mot;
+    public static int ilky;
+    public static int ada;
 
     void Start()
     {
@@ -16,6 +25,11 @@ public class SecmeControl : MonoBehaviour
             Instantiate(Canlar, CanYuva[i].transform);
 
         }
+
+        trafic.text = tra + "/5";
+        motor.text = mot + "/5";
+        ilk.text = ilky + "/5";
+        adab.text = ada + "/3";
     }
     public enum DersTur
     {

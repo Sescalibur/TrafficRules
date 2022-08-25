@@ -265,315 +265,368 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soru:
-  - Soru: "A\u015Fa\u011F\u0131dakilerden hangisi, yolcu ta\u015F\u0131mac\u0131l\u0131\u011F\u0131nda
-      kullan\u0131lan ve s\xFCr\xFCc\xFCs\xFC dahil dokuzdan fazla oturma yeri olan
-      motorlu ta\u015F\u0131tt\u0131r?"
-    Cevap:
-    - "\xC7ekici"
-    - 0
-    Cevap2:
-    - "Otob\xFCs"
-    - 1
-    Cevap3:
-    - Otomobil
-    - 0
-    Cevap4:
-    - Kamyonet
-    - 0
-    dogruIndex: 2
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  soruIlk:
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  adab:
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  motor:
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
   - Soru: 
-    Cevap: []
-    Cevap2: []
-    Cevap3: []
-    Cevap4: []
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
+    dogruIndex: 0
+  - Soru: 
+    Cevap: 
+    Cevap2: 
+    Cevap3: 
+    Cevap4: 
     dogruIndex: 0
 --- !u!1 &1338766270
 GameObject:
