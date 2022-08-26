@@ -13,11 +13,11 @@ public class SecmeControl : MonoBehaviour
     [SerializeField] TextMeshProUGUI motor;
     [SerializeField] TextMeshProUGUI ilk;
     [SerializeField] TextMeshProUGUI adab;
-    public static int tra;
-    public static int mot;
-    public static int ilky;
-    public static int ada;
-
+    public static int tra = 0;
+    public static int mot = 0;
+    public static int ilky = 0;
+    public static int ada = 0;
+    public static bool sessiz = false;
     void Start()
     {
         for (int i = 0; i < SoruCanvas.Can; i++)
@@ -25,7 +25,7 @@ public class SecmeControl : MonoBehaviour
             Instantiate(Canlar, CanYuva[i].transform);
 
         }
-
+        
         trafic.text = tra + "/5";
         motor.text = mot + "/5";
         ilk.text = ilky + "/5";
@@ -62,5 +62,20 @@ public class SecmeControl : MonoBehaviour
         dersTur = DersTur.IlkYardim;
         Destroy(gameObject);
         Instantiate(Soru, Vector3.zero, Quaternion.identity);
+    }
+    public void mute()
+    {
+        if (sessiz)
+        {
+            AudioListener.volume = PlayerPrefs.GetFloat("audioVolume");
+            sessiz = false;
+
+        }
+        else
+        {
+            AudioListener.volume = 0;
+            sessiz = true;
+        }
+        SaveSystem.Save();
     }
 }

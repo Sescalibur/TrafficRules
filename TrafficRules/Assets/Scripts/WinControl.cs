@@ -35,4 +35,19 @@ public class WinControl : MonoBehaviour
         Destroy(gameObject);
         Instantiate(SettingCanvas, Vector3.zero, Quaternion.identity);
     }
+    public void mute()
+    {
+        if (SecmeControl.sessiz)
+        {
+            AudioListener.volume = PlayerPrefs.GetFloat("audioVolume");
+            SecmeControl.sessiz = false;
+
+        }
+        else
+        {
+            AudioListener.volume = 0;
+            SecmeControl.sessiz = true;
+        }
+        SaveSystem.Save();
+    }
 }

@@ -110,6 +110,12 @@ public class DogruYanlis : MonoBehaviour
                 SecmeControl.ada++;
             }
         }
+        save();
+    }
+
+    void save()
+    {
+        SaveSystem.Save();
     }
 
     int kontrol()
@@ -159,5 +165,20 @@ public class DogruYanlis : MonoBehaviour
             Destroy(gameObject);
             Instantiate(loseCanvas, Vector3.zero, Quaternion.identity);
         }
+    }
+    public void mute()
+    {
+        if (SecmeControl.sessiz)
+        {
+            AudioListener.volume = PlayerPrefs.GetFloat("audioVolume");
+            SecmeControl.sessiz = false;
+
+        }
+        else
+        {
+            AudioListener.volume = 0;
+            SecmeControl.sessiz = true;
+        }
+        SaveSystem.Save();
     }
 }

@@ -573,6 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 7283189158196979102, guid: 60d5e895fdddc5c4985babe06349bbc0, type: 3}
+  slider: {fileID: 4935218368220428439}
 --- !u!1 &4935218368843142493
 GameObject:
   m_ObjectHideFlags: 0

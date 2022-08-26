@@ -33,6 +33,7 @@ public class SoruCanvas : MonoBehaviour
     private List<int> array = new List<int>();
     void Start()
     {
+        save();
         rastgele = RastgeleOlustur();
         array.Add(rastgele);
         soruYaz();
@@ -80,8 +81,11 @@ public class SoruCanvas : MonoBehaviour
 
     }
 
+    void save()
+    {
+        SaveSystem.Save();
+    }
 
-    // Update is called once per frame
     public void cevapA()
     {
         int kontrol = this.kontrol();
@@ -90,6 +94,7 @@ public class SoruCanvas : MonoBehaviour
         {
             panel.color = Color.green;
             soruSayisi++;
+            //save();
             Destroy(gameObject);
             Instantiate(canvas, Vector3.zero, Quaternion.identity);
         }
@@ -108,7 +113,7 @@ public class SoruCanvas : MonoBehaviour
                 Instantiate(canvas2, Vector3.zero, Quaternion.identity);
             }
             nextQuestionLose();
-
+            save();
         }
     }
 
@@ -138,7 +143,7 @@ public class SoruCanvas : MonoBehaviour
                 Instantiate(canvas2, Vector3.zero, Quaternion.identity);
             }
             nextQuestionLose();
-
+            save();
         }
     }
 
@@ -168,7 +173,7 @@ public class SoruCanvas : MonoBehaviour
                 Instantiate(canvas2, Vector3.zero, Quaternion.identity);
             }
             nextQuestionLose();
-
+            save();
         }
     }
 
@@ -198,7 +203,7 @@ public class SoruCanvas : MonoBehaviour
                 Instantiate(canvas2, Vector3.zero, Quaternion.identity);
             }
             nextQuestionLose();
-            
+            save();
         }
     }
 
@@ -282,5 +287,20 @@ public class SoruCanvas : MonoBehaviour
             Destroy(gameObject);
             Instantiate(loseCanvas, Vector3.zero, Quaternion.identity);
         }
+    }
+    public void mute()
+    {
+        if (SecmeControl.sessiz)
+        {
+            AudioListener.volume = PlayerPrefs.GetFloat("audioVolume");
+            SecmeControl.sessiz = false;
+
+        }
+        else
+        {
+            AudioListener.volume = 0;
+            SecmeControl.sessiz = true;
+        }
+        SaveSystem.Save();
     }
 }
